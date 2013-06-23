@@ -7,7 +7,11 @@ import re
 from string import punctuation
 
 
-url = 'http://en.wikipedia.org/wiki/List_of_Law_%26_Order:_Special_Victims_Unit_episodes'
+url = 'http://en.wikipedia.org/wiki/List_of_Law_%26_Order:\
+    _Special_Victims_Unit_episodes'
+
+ISO_DATE_PAT = re.compile('(\d{4}-\d{2}-\d{2})', re.DOTALL|re.IGNORECASE)
+FLOAT_PAT    = re.compile( '(\d{1,2}\.\d{1,2})', re.DOTALL|re.IGNORECASE)
 
 HTML = requests.get(url).text.encode('utf-8')
 SOUP = BeautifulSoup(HTML, 'lxml')
@@ -45,9 +49,6 @@ def find_headers(table):
     headers = [clean_txt(h) for h in headers]
     return headers
 
-ISO_DATE_PAT = re.compile('(\d{4}-\d{2}-\d{2})', re.DOTALL|re.IGNORECASE)
-FLOAT_PAT    = re.compile('(\d{1,2}\.\d{1,2})', re.DOTALL|re.IGNORECASE)
-
 def parse_text(txt, rg):
     txt = txt.strip()
     matches = rg.findall(txt)
@@ -76,9 +77,7 @@ def find_data(table):
                 pass
 
         row[6] = parse_text(row[6], rg=FLOAT_PAT)
-
         row.insert(0, ep)
-
 
     return rows
 
@@ -134,6 +133,7 @@ df.viewership = df.viewership.astype(float) * 1000000
 df = df.set_index(['aired'])
 keys = [df.index.year, df.index.month]
 df.groupby(keys).viewership.mean().plot()
+
 
 
 
