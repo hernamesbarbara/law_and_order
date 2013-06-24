@@ -134,20 +134,3 @@ df = df.set_index(['aired'])
 keys = [df.index.year, df.index.month]
 df.groupby(keys).viewership.mean().plot()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

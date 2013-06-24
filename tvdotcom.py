@@ -130,13 +130,3 @@ for i, season_url in enumerate(urls):
         with open(fname, 'w') as f:
             json.dump({'episode_recaps': episode_recaps},f,
                 ensure_ascii=False)
-
-# df = pd.read_csv('./law_and_order_episodes.csv')
-# df = pd.merge(df,
-#               links,
-#               left_on='title',
-#               right_on='title',
-#               how='left')
-
-# problems = ['Wanderlust', 'Stalked', 'Disrobed', 'Entitled', 'Chat Room']
-# problem = 'http://www.tv.com/shows/law-order-special-victims-unit/wanderlust-12330/recap'
