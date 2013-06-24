@@ -4,8 +4,7 @@ import re
 from string import punctuation
 import ujson as json
 
-episodes = pd.read_csv('./law_and_order_episodes.csv')
-
+STOP_WORDS = open('./stopwords.txt', 'r').read().split('\n')
 
 def read_file(f = './episode_recaps_by_season/recaps_season_1.json'):
     data = json.loads(open(f, 'r').read())
@@ -38,7 +37,7 @@ def read_all_files():
 
 
 df = read_all_files()
-
+episodes = pd.read_csv('./law_and_order_episodes.csv')
 
 df = pd.merge(episodes,
               df,
