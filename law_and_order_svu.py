@@ -36,7 +36,7 @@ def read_all_files():
 df = read_all_files()
 episodes = pd.read_csv('./law_and_order_episodes.csv')
 
-df = pd.merge(episodes, df, how='left'
+df = pd.merge(episodes, df, how='left',
               left_on=['season','season_num'],
               right_on=['nth_season', 'nth_episode'])
 
