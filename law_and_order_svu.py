@@ -27,8 +27,14 @@ def read_all_files():
 
     order_by = ['nth_season', 'nth_episode']
     df[order_by] = df[order_by].astype(int)
-    df = df.sort_index(by=order_by, ascending=[1,1])
+    df = df.sort_index(by=order_by, ascending=[1,0])
     df = df.reset_index()
+
+    # i inadvertently reversed the order of the episodes...
+    # this fixes it
+    df['nth_episode'] = 1
+    grouped = df.groupby('nth_season')
+    df.nth_episode = grouped.nth_episode.cumsum()
 
     return df
 
@@ -40,7 +46,25 @@ df = pd.merge(episodes, df, how='left',
               left_on=['season','season_num'],
               right_on=['nth_season', 'nth_episode'])
 
+df = df.drop(['season', 'index', 'season_num', 'episode_title'], axis=1)
+df = df.rename(columns={'series_num':'nth_episode_in_series'})
 
-selected = ['nth_season', 'season_num', 'nth_episode', 'episode_title']
-print df[selected].head(50)
+reordered = ['nth_season'
+            , 'nth_episode'
+            , 'nth_episode_in_series'
+            , 'title'
+            , 'director'
+            , 'writer'
+            , 'code'
+            , 'viewership'
+            , 'source'
+            , 'corpus_url'
+            , 'corpus']
+
+df = df.ix[:, reordered]
+
+# df.to_csv('./law_and_order_svu_with_recaps.txt',
+#     sep='|',
+#     index=False,
+#     encoding='utf-8')
 
