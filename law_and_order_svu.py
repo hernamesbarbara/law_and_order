@@ -7,14 +7,14 @@ import ujson as json
 STOP_WORDS  = list(set(open('./ref/stopwords.txt', 'r').read().split('\n')))
 CRIME_WORDS = list(set(open('./ref/crimes.txt', 'r').read().split('\n')))
 
-def read_file(f = './episode_recaps_by_season/recaps_season_1.json'):
+def read_file(f = './svu_data/episode_recaps_by_season/recaps_season_1.json'):
     data = json.loads(open(f, 'r').read())['episode_recaps']
     headers = data[0].keys()
     data = np.array([rec.values() for rec in data])
     return data, headers
 
 def read_all_files():
-    fmt = './data/episode_recaps_by_season/recaps_season_{0}.json'
+    fmt = './svu_data/episode_recaps_by_season/recaps_season_{0}.json'
     filenames = [fmt.format(i) for i in range(1, 15)]
 
     for i, f in enumerate(filenames):
@@ -40,7 +40,7 @@ def read_all_files():
 
 
 df = read_all_files()
-episodes = pd.read_csv('./data/law_and_order_episodes.csv')
+episodes = pd.read_csv('./svu_data/law_and_order_episodes.csv')
 
 df = pd.merge(episodes, df, how='left',
               left_on=['season','season_num'],
@@ -63,7 +63,7 @@ reordered = ['nth_season'
 
 df = df.ix[:, reordered]
 
-# df.to_csv('./data/law_and_order_svu_with_recaps.txt',
+# df.to_csv('./svu_data/law_and_order_svu_with_recaps.txt',
 #     sep='|',
 #     index=False,
 #     encoding='utf-8')

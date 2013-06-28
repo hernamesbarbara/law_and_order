@@ -1,0 +1,24 @@
+Directed by,No. in season,No. in series,Original air date,Production code,Title,Written by
+Ed Sherin,1,89,1994-09-21 00:00:00,69408,Second Opinion,Michael S. Chernuchin & Jeremy R. Littman
+Jace Alexander,2,90,1994-09-28 00:00:00,69406,Coma,Ed Zuckerman
+Don Scardino,3,91,1994-10-05 00:00:00,69402,Blue Bamboo,"Morgan Gendel, Hall Powell & René Balcer"
+Constantine Makris,4,92,1994-10-12 00:00:00,69401,Family Values,William N. Fordes & René Balcer
+Steve Robman,5,93,1994-10-19 00:00:00,69411,White Rabbit,Ed Zuckerman & Morgan Gendel
+Fred Gerber,6,94,1994-11-02 00:00:00,69409,Competence,Michael S. Chernuchin & Mark B. Perry
+Constantine Makris,7,95,1994-11-09 00:00:00,69410,Precious,I. C. Rapoport & René Balcer
+Martha Mitchell,8,96,1994-11-23 00:00:00,69412,Virtue,Mark B. Perry & Jeremy R. Littman
+Marc Laub,9,97,1994-11-30 00:00:00,69415,Scoundrels,Ed Zuckerman & Charles C. Mann
+James Quinn,10,98,1995-01-04 00:00:00,69413,House Counsel,Michael S. Chernuchin & Barry M. Schkolnick
+Christopher Misiano,11,99,1995-01-11 00:00:00,69404,Guardian,"Brad Markowitz, William N. Fordes & René Balcer"
+Don Scardino,12,100,1995-01-25 00:00:00,69416,Progeny,"Ed Zuckerman, Morgan Gendel & Mark B. Perry"
+Arthur W. Forney,13,101,1995-02-01 00:00:00,69414,Rage,Michael S. Chernuchin
+Martha Mitchell,14,102,1995-02-08 00:00:00,69419,Performance,"René Balcer, Jeremy R. Littman & Ed Zuckerman"
+Don Scardino,15,103,1995-02-15 00:00:00,69420,Seed,Michael S. Chernuchin & Janis Diamond
+Lewis H. Gould,16,104,1995-03-15 00:00:00,69417,Wannabe,I. C. Rapoport & René Balcer
+Constantine Makris,17,105,1995-03-22 00:00:00,69422,Act of God,Ed Zuckerman & Walter Dallenbach
+Vincent Misiano,18,106,1995-04-05 00:00:00,69418,Privileged,Jeremy R. Littman & Suzanne O'Malley
+Matthew Penn,19,107,1995-04-19 00:00:00,69423,Cruel and Unusual,René Balcer & Michael S. Chernuchin
+Dann Florek,20,108,1995-04-26 00:00:00,69426,Bad Faith,René Balcer
+Arthur W. Forney,21,109,1995-05-03 00:00:00,69421,Purple Heart,Morgan Gendel & William N. Fordes
+Christopher Misiano,22,110,1995-05-17 00:00:00,69425,Switch,Jeremy R. Littman & Sibyl Gardner
+Ed Sherin,23,111,1995-05-24 00:00:00,69427,Pride,Ed Zuckerman & Gene Ritchings

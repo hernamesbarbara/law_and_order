@@ -5,10 +5,12 @@ import numpy as np
 import pandas as pd
 import re
 from string import punctuation
-
+from collections import defaultdict
 
 url = 'http://en.wikipedia.org/wiki/List_of_Law_%26_Order:\
     _Special_Victims_Unit_episodes'
+
+url = 'http://en.wikipedia.org/wiki/List_of_Law_%26_Order_episodes'
 
 ISO_DATE_PAT = re.compile('(\d{4}-\d{2}-\d{2})', re.DOTALL|re.IGNORECASE)
 FLOAT_PAT    = re.compile( '(\d{1,2}\.\d{1,2})', re.DOTALL|re.IGNORECASE)
@@ -31,12 +33,6 @@ def find_rows(table):
 def find_columns(row):
     return list(row.find_all('th'))
 
-def tags_only(row):
-    return [th for th in row if isinstance(th, Tag)]
-
-def is_header(row):
-    return len(row) == 8
-
 def clean_txt(tag):
     txt = tag.get_text().split('\n')
     return u' '.join(txt).encode('utf-8').strip()
@@ -44,7 +40,7 @@ def clean_txt(tag):
 def find_headers(table):
     rows = find_rows(table)
     rows = [find_columns(row) for row in rows]
-    rows = [ row for row in rows if len(row) == 8 ]
+    rows = [ row for row in rows if len(row) >= 6 ]
     headers = rows[0] if len(rows) == 1 else []
     headers = [clean_txt(h) for h in headers]
     return headers
@@ -61,8 +57,15 @@ def rm_quotes(txt):
 def find_data(table):
     css = {'class': 'vevent'}
     rows = table.find_all('tr', css)
-    episode_numbers = [row.find('th').get_text() for row in rows]
-    rows = [ [clean_txt(td) for td in row.find_all('td')] for row in rows]
+
+    if len(rows) == 1:
+        return
+
+    episode_numbers = [row.find('th').get_text() for row in rows
+                        if row is not None and isinstance(row, Tag)]
+
+    rows = [[clean_txt(td) for td in row.find_all('td')]
+                for row in rows]
 
     for (ep, row) in zip(episode_numbers, rows):
         ep = int(ep) if ep.isdigit() else ep
@@ -76,61 +79,72 @@ def find_data(table):
             except:
                 pass
 
-        row[6] = parse_text(row[6], rg=FLOAT_PAT)
+        # only some have
+        # `U.S. Viewers (millions)`
+        if len(row) == 7:
+            row[6] = parse_text(row[6], rg=FLOAT_PAT)
+
         row.insert(0, ep)
 
     return rows
 
 
+
 tables = get_tables()
-df = None
+
 for i, table in enumerate(tables):
     rows = find_data(table)
-    if df is None:
-        df = pd.DataFrame(rows)
-        df['season'] = i + 1
-    else:
-        new = pd.DataFrame(rows)
-        new['season'] = i + 1
-        df = df.append(new)
+    h = find_headers(table)
 
-columns = find_headers(tables[0])
-columns.append('season')
-columns = [snakify(col) for col in columns]
-df.columns = columns
-df = df.reset_index(drop=True)
+    if rows is None or len(rows) == 0:
+        continue
 
-colnames = {
-    'no_in_season': 'season_num'
-    , 'no_in_series': 'series_num'
-    , 'directed_by': 'director'
-    , 'written_by': 'writer'
-    , 'original_air_date': 'aired'
-    , 'production_code': 'code'
-    , 'us_viewers_millions': 'viewership'
-}
+    data = defaultdict(list)
 
-df = df.rename(columns=colnames)
+    for j in range(len(h)):
+        data[h[j]] = [row[j] for row in rows]
 
-reordered = ['season',
-             'season_num',
-             'series_num',
-             'title',
-             'director',
-             'writer',
-             'aired',
-             'code',
-             'viewership']
+    df = pd.DataFrame(data)
+    f = './law_and_order_data/laworder_season{0}.txt'
+    df.to_csv(f.format(i+1), index=False)
 
-df = df.ix[:, reordered]
+# columns = find_headers(tables[0])
+# columns.append('season')
+# columns = [snakify(col) for col in columns]
+# df.columns = columns
+# df = df.reset_index(drop=True)
 
-df.aired = df.aired.replace('', None)
-df.aired = pd.to_datetime(df.aired)
+# colnames = {
+#     'no_in_season': 'season_num'
+#     , 'no_in_series': 'series_num'
+#     , 'directed_by': 'director'
+#     , 'written_by': 'writer'
+#     , 'original_air_date': 'aired'
+#     , 'production_code': 'code'
+#     , 'us_viewers_millions': 'viewership'
+# }
 
-df.viewership = df.viewership.replace(['', 'N/A'], np.nan)
-df.viewership = df.viewership.astype(float) * 1000000
+# df = df.rename(columns=colnames)
 
-df = df.set_index(['aired'])
-keys = [df.index.year, df.index.month]
-df.groupby(keys).viewership.mean().plot()
+# reordered = ['season',
+#              'season_num',
+#              'series_num',
+#              'title',
+#              'director',
+#              'writer',
+#              'aired',
+#              'code',
+#              'viewership']
+
+# df = df.ix[:, reordered]
+
+# df.aired = df.aired.replace('', None)
+# df.aired = pd.to_datetime(df.aired)
+
+# df.viewership = df.viewership.replace(['', 'N/A'], np.nan)
+# df.viewership = df.viewership.astype(float) * 1000000
+
+# df = df.set_index(['aired'])
+# keys = [df.index.year, df.index.month]
+# df.groupby(keys).viewership.mean().plot()
 
