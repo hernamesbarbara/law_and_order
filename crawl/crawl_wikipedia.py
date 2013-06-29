@@ -7,25 +7,18 @@ import re
 from string import punctuation
 from collections import defaultdict
 
-url = 'http://en.wikipedia.org/wiki/List_of_Law_%26_Order:\
-    _Special_Victims_Unit_episodes'
-
-url = 'http://en.wikipedia.org/wiki/List_of_Law_%26_Order_episodes'
+pd.options.display.line_width = 200
+pd.options.display.max_columns = 15
+pd.options.display.max_colwidth = 25
 
 ISO_DATE_PAT = re.compile('(\d{4}-\d{2}-\d{2})', re.DOTALL|re.IGNORECASE)
 FLOAT_PAT    = re.compile( '(\d{1,2}\.\d{1,2})', re.DOTALL|re.IGNORECASE)
 
-HTML = requests.get(url).text.encode('utf-8')
-SOUP = BeautifulSoup(HTML, 'lxml')
-
-def snakify(txt):
-    txt = txt.strip()
-    txt = ''.join(c for c in txt if c not in punctuation)
-    return txt.replace(' ', '_').lower()
-
-def get_tables(soup=SOUP):
+def get_tables(soup):
     css = {'class': 'wikitable plainrowheaders'}
-    return [table for table in soup.find_all('table', css)]
+    tables = [table for table in soup.find_all('table', css)]
+    print tables[0].get_text()
+    return tables
 
 def find_rows(table):
     return [row for row in table.find_all('tr')]
@@ -88,63 +81,42 @@ def find_data(table):
 
     return rows
 
+base = 'http://en.wikipedia.org/wiki'
 
+franchise = {
+    'original': base+'/List_of_Law_%26_Order_episodes'
+    , 'svu': base+'/List_of_Law_%26_Order:_Special_Victims_Unit_episodes'
+}
 
-tables = get_tables()
+for show in franchise:
 
-for i, table in enumerate(tables):
-    rows = find_data(table)
-    h = find_headers(table)
+    url = franchise.get(show)
 
-    if rows is None or len(rows) == 0:
-        continue
+    html = requests.get(url).text.encode('utf-8')
+    soup = BeautifulSoup(html, 'lxml')
 
-    data = defaultdict(list)
+    tables = get_tables(soup)
 
-    for j in range(len(h)):
-        data[h[j]] = [row[j] for row in rows]
+    if show == 'original':
+        tables.pop(0)
 
-    df = pd.DataFrame(data)
-    f = './law_and_order_data/laworder_season{0}.txt'
-    df.to_csv(f.format(i+1), index=False)
+    tables = [ t for t in tables if 'Law & Order Movie' not in t.get_text() ]
 
-# columns = find_headers(tables[0])
-# columns.append('season')
-# columns = [snakify(col) for col in columns]
-# df.columns = columns
-# df = df.reset_index(drop=True)
+    for i, table in enumerate(tables):
+        nth_season = i + 1
+        rows = find_data(table)
+        h = find_headers(table)
 
-# colnames = {
-#     'no_in_season': 'season_num'
-#     , 'no_in_series': 'series_num'
-#     , 'directed_by': 'director'
-#     , 'written_by': 'writer'
-#     , 'original_air_date': 'aired'
-#     , 'production_code': 'code'
-#     , 'us_viewers_millions': 'viewership'
-# }
+        if rows is None or len(rows) == 0:
+            continue
 
-# df = df.rename(columns=colnames)
+        data = defaultdict(list)
 
-# reordered = ['season',
-#              'season_num',
-#              'series_num',
-#              'title',
-#              'director',
-#              'writer',
-#              'aired',
-#              'code',
-#              'viewership']
+        for j in range(len(h)):
+            data[h[j]] = [row[j] for row in rows]
 
-# df = df.ix[:, reordered]
-
-# df.aired = df.aired.replace('', None)
-# df.aired = pd.to_datetime(df.aired)
-
-# df.viewership = df.viewership.replace(['', 'N/A'], np.nan)
-# df.viewership = df.viewership.astype(float) * 1000000
-
-# df = df.set_index(['aired'])
-# keys = [df.index.year, df.index.month]
-# df.groupby(keys).viewership.mean().plot()
-
+        df = pd.DataFrame(data)
+        df['nth_season'] = nth_season
+        f = './data/{show}/episodes/season_{num}.csv'
+        f = f.format(show=show, num=nth_season)
+        df.to_csv(f, index=False)

@@ -7,6 +7,10 @@ import ujson as json
 STOP_WORDS  = list(set(open('./ref/stopwords.txt', 'r').read().split('\n')))
 CRIME_WORDS = list(set(open('./ref/crimes.txt', 'r').read().split('\n')))
 
+pd.options.display.line_width = 200
+pd.options.display.max_columns = 15
+pd.options.display.max_colwidth = 25
+
 def read_file(f = './svu_data/episode_recaps_by_season/recaps_season_1.json'):
     data = json.loads(open(f, 'r').read())['episode_recaps']
     headers = data[0].keys()
