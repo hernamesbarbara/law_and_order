@@ -28,3 +28,4 @@ vec.fit(df.corpus)
 crimes = list_of_crimes()
 mentioned = sorted([word for word in vec.vocabulary_
                             if word in crimes ])
+
