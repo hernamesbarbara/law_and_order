@@ -7,10 +7,18 @@ import re
 from string import punctuation
 import ujson as json
 
-def make_url(season):
-     base = 'http://www.tv.com'
-     path = '/shows/law-order-special-victims-unit/season-{num}/'
-     return base+path.format(num=season)
+pd.options.display.line_width = 200
+pd.options.display.max_columns = 15
+pd.options.display.max_colwidth = 25
+
+def make_url(show, season):
+    base = 'http://www.tv.com/shows'
+    franchise = {
+        'original': '/law-order/season-{num}/',
+        'svu': '/law-order-special-victims-unit/season-{num}/'
+    }
+
+    return base+franchise.get(show).format(num=season)
 
 def get_soup(url, verbose=True):
     h = {'User-Agent': 'Mozilla/5.0'}
@@ -71,62 +79,82 @@ def get_recap(episode_url):
 def utf8ify(txt):
     return u''.join(txt).encode('utf-8').strip()
 
-urls = [ make_url(i) for i in range(1, 15) ]
+franchise = [
+    {'name': 'svu', 'n_seasons': 14},
+    {'name': 'original', 'n_seasons': 20}
+]
 
-for i, season_url in enumerate(urls):
-    nth_season = i + 1
+for show in franchise:
 
-    soup = get_soup(season_url)
-    episodes = find_episodes(soup)
+    name = show['name']
+    n_seasons = show['n_seasons']
 
-    if len(episodes) > 0:
+    urls = [ make_url(name, i) for i in range(1, n_seasons+1) ]
 
-        episode_links = [find_links(ep) for ep in episodes]
-        links = pd.DataFrame(identify_links(episode_links))
-        links['recap'] = links['Episode Overview'].apply(get_recap)
+    for i, season_url in enumerate(urls):
+        nth_season = i + 1
 
-        successful = 0
-        total = len(links)
+        soup = get_soup(season_url)
+        episodes = find_episodes(soup)
 
-        episode_recaps = []
-        for i, row in links.iterrows():
-            success = True
-            nth_episode = i+1
-            url = utf8ify(row['recap'])
-            title = utf8ify(row['title'])
+        if len(episodes) > 0:
+            print 'Episodes for Season: %d' % nth_season
 
-            soup = get_soup(url)
-            corpus = soup.find_all('div', {'class': 'text'})
+            episode_links = [find_links(ep) for ep in episodes]
+            links = pd.DataFrame(identify_links(episode_links))
+            total = len(links)
 
-            if len(corpus) == 1:
-                corpus = utf8ify(corpus[0].get_text())
-            else:
-                corpus = ''
+            links['recap'] = links['Episode Overview'].apply(get_recap)
+            links['nth_season'] = nth_season
+            links['nth_episode'] = list(reversed(range(1,total+1)))
 
-            try:
+            successful = 0
 
-                rec = {
-                    'nth_episode': int(nth_episode)
-                    , 'nth_season': nth_season
-                    , 'source': u'http://www.tv.com'
-                    , 'corpus_url': url
-                    , 'episode_title': title
-                    , 'corpus': corpus
-                }
 
-                episode_recaps.append(rec)
-                successful += 1
+            episode_recaps = []
 
-            except Exception, e:
-                print e
-                success = False
+            for j, row in links.iterrows():
+                success = True
 
-            print '%s: %s' % (title, ('DONE' if success else 'ERROR') )
+                nth_episode = int(row['nth_episode'])
+                url = utf8ify(row['recap'])
+                title = utf8ify(row['title'])
 
-        print 'Season %d' % nth_season
-        print 'Percent Success: {:.2%}'.format(float(successful)/total)
+                soup = get_soup(url)
+                corpus = soup.find_all('div', {'class': 'text'})
 
-        fname = 'recaps_season_{0}.json'.format(nth_season)
-        with open(fname, 'w') as f:
-            json.dump({'episode_recaps': episode_recaps},f,
-                ensure_ascii=False)
+                if len(corpus) == 1:
+                    corpus = utf8ify(corpus[0].get_text())
+                else:
+                    corpus = ''
+
+                try:
+
+                    rec = {
+                        'nth_episode': nth_episode
+                        , 'nth_season': nth_season
+                        , 'source': u'http://www.tv.com'
+                        , 'corpus_url': url
+                        , 'episode_title': title
+                        , 'corpus': corpus
+                        , 'show': name
+                    }
+
+                    episode_recaps.append(rec)
+                    successful += 1
+
+                except Exception, e:
+                    print e
+                    success = False
+
+                print '%s: %s' % (title, ('DONE' if success else 'ERROR') )
+
+            print 'Finished Season %d' % nth_season
+            print 'Percent Success: {:.2%}'.format(float(successful)/total)
+
+            p = './data/{show}/recaps'.format(show=name)
+            fname = p+'/season_{0}.json'.format(nth_season)
+
+            with open(fname, 'w') as f:
+                json.dump({'episode_recaps': episode_recaps},f,
+                    ensure_ascii=False)
