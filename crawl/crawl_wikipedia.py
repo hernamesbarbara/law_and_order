@@ -15,9 +15,13 @@ For example:
 http://en.wikipedia.org/wiki/List_of_Law_%26_Order_episodes
 http://en.wikipedia.org/wiki/List_of_Law_%26_Order:_Special_Victims_Unit_episodes
 
-Results will be stored here:
+You should run this script from the project root.
+
+Results will be stored here.
 
     Project/
+    |-- crawl/
+    |   |-- crawl_wikipedia.py
     |-- data/
     |   |-- original/
     |   |   |-- episodes/
@@ -29,8 +33,6 @@ Results will be stored here:
     |   |   |   |-- season_1.csv
     |   |   |   |-- season_2.csv
     |   |   |   |-- season_3.csv
-    |
-    |-- crawl_wikipedia.py
 
 """
 import requests

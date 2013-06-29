@@ -28,9 +28,13 @@ For example:
 
         http://www.tv.com/shows/law-order/stiff-9729/recap
 
-Results will be stored here:
+You should run this script from the project root.
+
+Results will be stored here.
 
     Project/
+    |-- crawl/
+    |   |-- tvdotcom.py
     |-- data/
     |   |-- original/
     |   |   |-- recaps/
@@ -42,8 +46,6 @@ Results will be stored here:
     |   |   |   |-- season_1.json
     |   |   |   |-- season_2.json
     |   |   |   |-- season_3.json
-    |
-    |-- tvdotcom.py
 
 """
 import requests
