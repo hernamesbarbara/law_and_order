@@ -1,3 +1,38 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+crawl_wikipedia.py
+
+Created by Austin Ogilvie on 2013-06-29.
+Copyright (c) 2013. All rights reserved.
+
+This script downloads Law and Order TV data from wikipedia.
+
+It visits the list of episodes page on wikipedia
+and grabs each of the tables for each season of the show.
+
+For example:
+http://en.wikipedia.org/wiki/List_of_Law_%26_Order_episodes
+http://en.wikipedia.org/wiki/List_of_Law_%26_Order:_Special_Victims_Unit_episodes
+
+Results will be stored here:
+
+    Project/
+    |-- data/
+    |   |-- original/
+    |   |   |-- episodes/
+    |   |   |   |-- season_1.csv
+    |   |   |   |-- season_2.csv
+    |   |   |   |-- season_3.csv
+    |   |-- svu/
+    |   |   |-- episodes/
+    |   |   |   |-- season_1.csv
+    |   |   |   |-- season_2.csv
+    |   |   |   |-- season_3.csv
+    |
+    |-- crawl_wikipedia.py
+
+"""
 import requests
 from bs4 import BeautifulSoup, Tag,NavigableString
 import lxml

@@ -1,3 +1,51 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+tvdotcom.py
+
+Created by Austin Ogilvie on 2013-06-29.
+Copyright (c) 2013. All rights reserved.
+
+This script downloads Law and Order TV data from tv.com.
+
+It visits the list of episodes page on TV.com. From there, it
+finds each URL specific to a user-submitted summary page.
+
+Although a summary / recap page exists for each episode,
+not every episode actually has a recap.
+
+This is due to the fact that users haven't written recaps for every episode.
+
+For example:
+
+    This page:
+        http://www.tv.com/shows/law-order/season-10/
+
+    Yields a list of URLs specific to each episode in season 1 of
+    the original law and order series.
+
+    From there, the script is able to grab each episode recap URL:
+
+        http://www.tv.com/shows/law-order/stiff-9729/recap
+
+Results will be stored here:
+
+    Project/
+    |-- data/
+    |   |-- original/
+    |   |   |-- recaps/
+    |   |   |   |-- season_1.json
+    |   |   |   |-- season_2.json
+    |   |   |   |-- season_3.json
+    |   |-- svu/
+    |   |   |-- recaps/
+    |   |   |   |-- season_1.json
+    |   |   |   |-- season_2.json
+    |   |   |   |-- season_3.json
+    |
+    |-- tvdotcom.py
+
+"""
 import requests
 from bs4 import BeautifulSoup, Tag,NavigableString
 import lxml
