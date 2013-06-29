@@ -154,6 +154,9 @@ for show in franchise:
 
             links['recap'] = links['Episode Overview'].apply(get_recap)
             links['nth_season'] = nth_season
+
+            # tv.com arranges episodes in reverse chronological order
+            # this ensures proper enumeration
             links['nth_episode'] = list(reversed(range(1,total+1)))
 
             successful = 0
