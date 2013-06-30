@@ -1,0 +1,1289 @@
+row_id|character_name|male|female
+3|ADA Abbie Carmichael|1.0|1.0
+4|ADA Alden|1.0|0.0
+5|ADA Alex Cabot|1.0|1.0
+10|ADA Casey Novak|1.0|1.0
+11|ADA Connie Rubirosa|1.0|1.0
+14|ADA Karen Fitzgerald|1.0|0.0
+15|ADA Page Ferguson|1.0|0.0
+18|ADA West|1.0|0.0
+25|Abby|1.0|1.0
+26|Abraham|1.0|0.0
+31|Adam|1.0|0.0
+32|Adam Cordell|1.0|0.0
+33|Adam Halder|1.0|0.0
+34|Adams High School|1.0|0.0
+44|Agent Lockwood|1.0|0.0
+46|Agent Porter|1.0|0.0
+50|Albert|1.0|0.0
+53|Alden|1.0|0.0
+54|Alex|1.0|1.0
+55|Alex Cabot|1.0|1.0
+56|Alex Parven|1.0|1.0
+57|Alexander|1.0|0.0
+58|Alexander Strizhov|1.0|0.0
+59|Alexandra Cabot|0.0|1.0
+60|Alexandra Shabtai|0.0|1.0
+61|Alfonso|1.0|0.0
+63|Alice|0.0|1.0
+64|Alice Murner|0.0|1.0
+65|Alisha|0.0|1.0
+66|Alisha Harding|0.0|1.0
+67|Alma|0.0|1.0
+68|Alma Cordoza|0.0|1.0
+73|Alyssa|0.0|1.0
+76|Amanda|0.0|1.0
+78|Ambassador Andrew Raines|1.0|0.0
+79|Amelia Chase|1.0|0.0
+85|Amy|0.0|1.0
+87|Andre Lasnik|1.0|0.0
+88|Andrea|1.0|1.0
+89|Andrea Brown|1.0|1.0
+90|Andreas|1.0|0.0
+91|Andrew|1.0|0.0
+92|Andrew Croft|1.0|0.0
+93|Andrew Green|1.0|0.0
+94|Andrew Harlin|1.0|0.0
+95|Andrew Raines|1.0|0.0
+98|Andy|1.0|1.0
+99|Andy Dell|1.0|1.0
+100|Angel Rivera|1.0|1.0
+101|Angela Jarrell|0.0|1.0
+102|Angelina|0.0|1.0
+103|Angelina Lupino|0.0|1.0
+104|Angie|1.0|1.0
+105|Angie Landricks|1.0|1.0
+107|Ann|0.0|1.0
+108|Anna|0.0|1.0
+109|Anna Foust|0.0|1.0
+110|Anna Freud|0.0|1.0
+111|Anna Karenina|0.0|1.0
+112|Anna McWilliams|0.0|1.0
+113|Anna Rivera|0.0|1.0
+114|Annabelle|0.0|1.0
+115|Annabelle Hayes|1.0|0.0
+116|Annabelle Paz|0.0|1.0
+117|Anne|0.0|1.0
+118|Annette|0.0|1.0
+119|Annette Fox|1.0|0.0
+120|Annie Tassler|0.0|1.0
+123|Antonio|1.0|0.0
+124|Antonio Montoya|1.0|0.0
+125|Anya Rugova|0.0|1.0
+129|April|0.0|1.0
+135|Archibald Newlands|1.0|0.0
+136|Ari Nathan|1.0|0.0
+139|Arnold Cokely|1.0|0.0
+141|Arthur|1.0|0.0
+142|Arthur Branch|1.0|0.0
+143|Arthur Esterman|1.0|0.0
+144|Artie Cramer|1.0|0.0
+145|Arturo|1.0|0.0
+147|Ashley|1.0|1.0
+148|Ashok Ramsey|1.0|0.0
+157|Assistant Attorney Chris Danielson|1.0|1.0
+158|Assistant Medical Examiner Justin|1.0|1.0
+165|Audrey|0.0|1.0
+166|Audrey Hale|1.0|0.0
+167|Audrey Jackson|1.0|0.0
+169|Austin|1.0|1.0
+174|Babs|0.0|1.0
+175|Babs Duffy|1.0|0.0
+176|Baby Safe Haven|1.0|0.0
+190|Barbie|0.0|1.0
+192|Barnett|1.0|0.0
+194|Barrett College|1.0|0.0
+195|Barry|1.0|1.0
+196|Barry Cole|1.0|0.0
+197|Barry Moredock|1.0|1.0
+200|Battery Park|1.0|0.0
+201|Baxter Arms|1.0|0.0
+202|Becca|0.0|1.0
+203|Becca Rice|1.0|0.0
+204|Beck|1.0|0.0
+205|Beck Marty|1.0|1.0
+206|Becky Sorenson|0.0|1.0
+211|Belinda|0.0|1.0
+212|Belinda Alvarez|0.0|1.0
+214|Bella|0.0|1.0
+217|Ben|1.0|0.0
+218|Ben Campion|1.0|0.0
+219|Ben Nicholson|1.0|0.0
+221|Benji Dowe|1.0|0.0
+223|Benny|1.0|1.0
+224|Benson|1.0|0.0
+225|Benson Dell|1.0|1.0
+226|Benson Haley|1.0|1.0
+227|Benson Holt|1.0|0.0
+228|Benson Munch|1.0|0.0
+229|Benson Ridley|1.0|0.0
+230|Benson Sennet|1.0|0.0
+231|Benson Warner|1.0|0.0
+232|Benson Zander|1.0|0.0
+237|Bernard|1.0|0.0
+238|Bernardo|1.0|0.0
+240|Bertram Small|1.0|0.0
+241|Bertrand Stokes|1.0|0.0
+242|Bess|0.0|1.0
+243|Bess Sherman|1.0|0.0
+244|Beth|0.0|1.0
+245|Beth Milgram|0.0|1.0
+246|Bethany|0.0|1.0
+247|Bethany Taylor|1.0|0.0
+249|Betty|0.0|1.0
+250|Betty Abrams|0.0|1.0
+252|Bev|0.0|1.0
+255|Bill|1.0|1.0
+256|Bill Griswald|1.0|1.0
+257|Bill Lynch|1.0|1.0
+258|Bill Reed|1.0|0.0
+259|Bill Tattinger|1.0|1.0
+260|Bill Turbit|1.0|1.0
+261|Bill Walker|1.0|0.0
+264|Billy|1.0|1.0
+265|Billy Skaggs|1.0|1.0
+269|Bishop|1.0|0.0
+270|Bishop Mallinson|1.0|0.0
+273|Black Pearl|0.0|1.0
+277|Blaine|1.0|0.0
+278|Blair|1.0|1.0
+279|Blake Peters|1.0|1.0
+282|Bob|1.0|0.0
+283|Bobby|1.0|1.0
+284|Bobby Douglas|1.0|0.0
+285|Bobby Trapedo|1.0|1.0
+293|Bowman Hall|1.0|0.0
+294|Brad Mandell|1.0|0.0
+295|Brad Weber|1.0|0.0
+296|Brady Harrison|1.0|0.0
+298|Brandon Lee|1.0|1.0
+299|Brandy|1.0|1.0
+300|Brannon Lee Redding|1.0|1.0
+306|Brenda|0.0|1.0
+307|Brenda Sawyer|1.0|0.0
+309|Bret Jansen|1.0|0.0
+310|Brett|1.0|1.0
+314|Brian|1.0|0.0
+315|Brian Ackerman|1.0|0.0
+316|Brianna Morris|1.0|0.0
+317|Bridget|0.0|1.0
+333|Bruce|1.0|0.0
+334|Bruce Clarkson|1.0|0.0
+335|Bruce Derricks|1.0|0.0
+336|Bryce|1.0|0.0
+337|Bryce Kelton|1.0|0.0
+338|Buddy Holly|1.0|1.0
+346|Burt|1.0|0.0
+350|Buster|1.0|0.0
+351|Buster Flynn|1.0|0.0
+352|Butch|1.0|0.0
+372|Caesar|1.0|0.0
+373|Caitlin|0.0|1.0
+375|Calvin|1.0|0.0
+376|Calvin Benson|1.0|0.0
+377|Camilla Velez|0.0|1.0
+381|Canada|0.0|1.0
+388|Candace|0.0|1.0
+389|Candy|0.0|1.0
+394|Captain Jackson|1.0|0.0
+401|Carl|1.0|0.0
+402|Carl Cooper|1.0|0.0
+403|Carl Kudlak|1.0|0.0
+404|Carla|0.0|1.0
+405|Carlisle|0.0|1.0
+407|Carlo Parisi|1.0|0.0
+408|Carlos|1.0|0.0
+409|Carlos Martinez|1.0|0.0
+410|Carlos Medina|1.0|0.0
+411|Carly|0.0|1.0
+412|Carly Holbart|0.0|1.0
+413|Carmel|0.0|1.0
+414|Carmella|0.0|1.0
+415|Carmella Barrantes|0.0|1.0
+416|Carmen|0.0|1.0
+417|Carmen Trancoso|0.0|1.0
+419|Carol Henderson|1.0|0.0
+420|Caroline|0.0|1.0
+421|Caroline Ann Preston|1.0|0.0
+422|Carolyn Maddox|0.0|1.0
+423|Carolyn Pereira|0.0|1.0
+425|Carrie|0.0|1.0
+426|Carrie Huitt|0.0|1.0
+427|Carson|1.0|0.0
+429|Caryn|0.0|1.0
+430|Caryn Wyman|0.0|1.0
+433|Case|1.0|0.0
+434|Casey|1.0|1.0
+435|Casey Novak|1.0|1.0
+436|Cass|1.0|1.0
+437|Cass Holloman|1.0|1.0
+438|Cass Magnall|1.0|1.0
+440|Cassandra|0.0|1.0
+441|Cassandra Sullivan|1.0|0.0
+443|Cassie|0.0|1.0
+444|Cat|1.0|1.0
+445|Catarina|0.0|1.0
+451|Celeste|0.0|1.0
+452|Celeste Mott|0.0|1.0
+453|Celia|0.0|1.0
+454|Celia Goddard|1.0|0.0
+459|Central Park|1.0|0.0
+463|Cesar Chavez|1.0|0.0
+464|Cesar Vasques|1.0|0.0
+465|Chad Patel|1.0|0.0
+467|Chantal|0.0|1.0
+469|Charge Claire|1.0|1.0
+470|Charles|1.0|0.0
+471|Charles Lee|1.0|1.0
+472|Charley Moss|1.0|0.0
+473|Charlie|1.0|0.0
+474|Charlie Monaghan|1.0|0.0
+475|Charlotte|0.0|1.0
+476|Chase|1.0|0.0
+477|Chauncey|1.0|0.0
+478|Chauncey Zierko|1.0|0.0
+480|Chelsea|0.0|1.0
+481|Chelsea Doe|0.0|1.0
+482|Cherry Glow Lipstick|0.0|1.0
+483|Chester|1.0|0.0
+484|Chet|1.0|0.0
+485|Chet Hadler|1.0|0.0
+494|Chloe|0.0|1.0
+495|Chris|1.0|1.0
+496|Chris Coty|1.0|1.0
+497|Christ|1.0|0.0
+498|Christian Colleges|1.0|1.0
+499|Christie|1.0|1.0
+501|Christopher James|1.0|0.0
+502|Chuck|1.0|0.0
+503|Chuck Mosley|1.0|0.0
+504|Churchill|1.0|0.0
+505|Cindy|0.0|1.0
+509|Claire|1.0|1.0
+510|Clare|1.0|1.0
+511|Clark Jensen|1.0|0.0
+513|Clay|1.0|0.0
+514|Clayton|1.0|0.0
+515|Clayton Derricks|1.0|0.0
+517|Cleveland|1.0|0.0
+518|Clyde|1.0|0.0
+523|Cole|1.0|0.0
+524|Coleen|0.0|1.0
+525|Coleman|1.0|0.0
+526|Colleen|0.0|1.0
+544|Connor|1.0|0.0
+546|Conroy|1.0|0.0
+547|Constanta|0.0|1.0
+548|Constanta Condrescu|0.0|1.0
+551|Cooper|1.0|0.0
+556|Corinne|0.0|1.0
+557|Corinne Nicholson|0.0|1.0
+560|Corrine|0.0|1.0
+561|Corrine Nicholson|0.0|1.0
+566|Courtney|1.0|1.0
+567|Courtney Jones|1.0|1.0
+571|Cragen Alma|0.0|1.0
+572|Cragen Andrew|1.0|0.0
+573|Cragen Bruce|1.0|0.0
+574|Cragen Eden|0.0|1.0
+576|Cragen Michael|1.0|0.0
+577|Cragen Warner|1.0|0.0
+578|Craig Prince|1.0|0.0
+589|Cynthia|0.0|1.0
+590|Cynthia Wilmont|0.0|1.0
+591|Cyrus Parker|1.0|0.0
+592|Cyrus Weaver|1.0|0.0
+595|DA Arthur Branch|1.0|0.0
+597|DA Jack|1.0|0.0
+610|Dahlia|0.0|1.0
+611|Daisy|0.0|1.0
+612|Daisy Chao|0.0|1.0
+613|Dallas|1.0|1.0
+614|Dallas Warner|1.0|0.0
+615|Dalton Rindell|1.0|0.0
+617|Damian|1.0|0.0
+618|Damon|1.0|0.0
+619|Dan|1.0|0.0
+620|Dan Hoffman|1.0|0.0
+621|Dana Lewis|1.0|0.0
+622|Dana McGuire|1.0|1.0
+623|Dana Simpson|1.0|1.0
+626|Dani|1.0|1.0
+627|Dani Beck|1.0|0.0
+628|Daniel|1.0|1.0
+629|Daniel Brooks|1.0|1.0
+630|Daniel Brown|1.0|1.0
+631|Daniel Hardy|1.0|1.0
+632|Danielle|0.0|1.0
+633|Danielle Masoner|0.0|1.0
+635|Danny|1.0|1.0
+636|Danny Burrell|1.0|1.0
+637|Danny Proctor|1.0|1.0
+638|Danny Tatum|0.0|1.0
+641|Darius|1.0|0.0
+642|Darius Parker|1.0|0.0
+643|Darius Retafian|1.0|0.0
+644|Darlene Sadler|0.0|1.0
+645|Darryl Kern|1.0|1.0
+647|Dave Morley|1.0|0.0
+648|Dave Spence|1.0|0.0
+649|David|1.0|0.0
+650|David Adams|1.0|0.0
+651|David Anderson|1.0|0.0
+652|David Hamoud|1.0|0.0
+653|David Hasselhoff|1.0|0.0
+654|David ID|1.0|0.0
+655|David Jeffries|1.0|0.0
+656|David Kelp|1.0|0.0
+657|David Marolo|1.0|0.0
+658|David McKuin|1.0|0.0
+659|David Moore|1.0|0.0
+660|Davis Langley|1.0|0.0
+661|Dawn|0.0|1.0
+662|Dawn Trent|1.0|0.0
+664|Dean|1.0|0.0
+665|Dean Woodruff|1.0|0.0
+667|Debbie|0.0|1.0
+668|Deborah|0.0|1.0
+669|Deborah Latrell|0.0|1.0
+670|Dede|0.0|1.0
+671|Dede Aston|0.0|1.0
+672|Deena|0.0|1.0
+673|Deena Meredith|1.0|1.0
+677|Denis|1.0|0.0
+678|Denise|0.0|1.0
+680|Dennis|1.0|0.0
+681|Dennis Caulfield|1.0|0.0
+682|Dennis Papillion|1.0|0.0
+685|Derek|1.0|0.0
+686|Derek Lord|1.0|0.0
+687|Derek Pfeiffer|1.0|0.0
+688|Derrick|1.0|0.0
+690|Desert Storm|0.0|1.0
+691|Detective Benson|1.0|0.0
+693|Detective Dan Lattimer|1.0|0.0
+694|Detective Frank Bremmer|1.0|1.0
+696|Detective Kevin Bernard|1.0|0.0
+697|Detective Lewis|1.0|0.0
+702|Detectives Bernard|1.0|0.0
+707|Dewey|1.0|0.0
+708|Diane|0.0|1.0
+709|Dick Tracy|1.0|1.0
+710|Dickie|1.0|0.0
+711|Dickie Stabler|1.0|0.0
+713|Diego|1.0|0.0
+714|Diego Benitez|1.0|0.0
+715|Diego Ramirez|1.0|0.0
+725|Doe|0.0|1.0
+729|Dominique|1.0|1.0
+730|Donald Alvers|1.0|0.0
+731|Donna Leonte|0.0|1.0
+733|Donny Spencer|1.0|0.0
+734|Donovan|1.0|0.0
+735|Dori|0.0|1.0
+736|Doris|0.0|1.0
+737|Doris Harrington|0.0|1.0
+738|Doug|1.0|0.0
+739|Doug Waverly|1.0|0.0
+744|Drew|1.0|1.0
+745|Drew Farmer|1.0|1.0
+749|Duke Law School|1.0|0.0
+753|Dwight Stannich|1.0|0.0
+754|Dylan|1.0|0.0
+772|Eddie|1.0|1.0
+773|Eddie Allen Poe|1.0|0.0
+774|Eddie Blanco|1.0|1.0
+775|Eddie Green|1.0|1.0
+776|Eden|0.0|1.0
+778|Edgar Varick|1.0|0.0
+780|El Salvador|1.0|0.0
+781|Elaine|0.0|1.0
+786|Eldon Balogh|1.0|0.0
+787|Elena|0.0|1.0
+788|Elena Brevet|0.0|1.0
+790|Eliot|1.0|0.0
+791|Eliza Glaser|0.0|1.0
+792|Elizabeth|0.0|1.0
+793|Elizabeth Hassenback|0.0|1.0
+794|Elizabeth Olivet|0.0|1.0
+795|Elizabeth Stabler|0.0|1.0
+796|Ella|0.0|1.0
+797|Ellen|0.0|1.0
+798|Ellen Sazelin|0.0|1.0
+799|Ellen Travis|1.0|0.0
+800|Elliot|1.0|0.0
+801|Elliot Agent Porter|1.0|0.0
+802|Elliot Katie|0.0|1.0
+803|Elliot Stabler|1.0|0.0
+808|Emily|0.0|1.0
+809|Emily Keefe|1.0|0.0
+810|Emily McCooper|0.0|1.0
+811|Emily Porter|1.0|0.0
+812|Emily Waterbury|0.0|1.0
+813|Emma|0.0|1.0
+814|Emma Kim|1.0|1.0
+815|Emmanuel|1.0|0.0
+816|Emmanuel Clemente|1.0|0.0
+821|Enter Oliver Gates|0.0|1.0
+824|Eric|1.0|0.0
+825|Eric Bruny|1.0|0.0
+826|Eric Campbell|1.0|0.0
+827|Eric Plummer|1.0|0.0
+828|Eric Winton|1.0|0.0
+829|Erin Russ|1.0|0.0
+830|Ernesto|1.0|0.0
+831|Ernesto Diaz|1.0|0.0
+832|Esau|1.0|0.0
+835|Ethel Barnet|0.0|1.0
+838|Eugene|1.0|0.0
+839|Eugene Hoff|1.0|0.0
+841|Evan|1.0|0.0
+842|Evan Holt|1.0|0.0
+843|Evan Jonathan|1.0|0.0
+844|Evelyn|1.0|1.0
+845|Evelyn Prichard|1.0|1.0
+852|FBI Agent Dana Lewis|1.0|0.0
+853|FBI Agent Dean Porter|1.0|0.0
+854|FBI Agent Porter|1.0|0.0
+861|Father Denis|1.0|0.0
+862|Father Gregory|1.0|0.0
+865|Father Michael|1.0|0.0
+870|Fedora|0.0|1.0
+871|Fedora Bandits|0.0|1.0
+873|Felix|1.0|0.0
+887|Finn|1.0|0.0
+893|Fitzgerald|1.0|0.0
+894|Florida|0.0|1.0
+896|Flynn|1.0|0.0
+899|Ford Taurus|1.0|0.0
+900|Ford Tauruses|1.0|0.0
+902|Fort Dietrich|1.0|0.0
+903|Fort Dix|0.0|1.0
+904|Foster|1.0|0.0
+905|France|0.0|1.0
+906|Frances|0.0|1.0
+907|Francesca|0.0|1.0
+908|Francine|0.0|1.0
+909|Francis|1.0|1.0
+910|Frank|1.0|1.0
+911|Frank Andreas|1.0|0.0
+912|Frank Barbarosa|1.0|1.0
+913|Frank Hovis|1.0|1.0
+914|Frank Martin|1.0|0.0
+915|Frank Taggart|1.0|1.0
+916|Franklin|1.0|0.0
+918|French|1.0|0.0
+919|French Resistance|1.0|0.0
+923|Fulton|1.0|0.0
+929|Gabriel|1.0|1.0
+930|Gabrielle|0.0|1.0
+937|Garcia|1.0|0.0
+938|Gardner|1.0|0.0
+940|Gates|0.0|1.0
+941|Gay Officer|1.0|1.0
+942|Geneva|0.0|1.0
+943|George|1.0|1.0
+944|George Huang|1.0|1.0
+945|George Kazinski|1.0|1.0
+946|Georgia|1.0|1.0
+948|Gerald Morgan|1.0|1.0
+949|Gerard|1.0|0.0
+953|Gina|0.0|1.0
+954|Gina Bernardo|1.0|0.0
+955|Gina Maylor|0.0|1.0
+956|Gina Silver|0.0|1.0
+957|Ginger|1.0|1.0
+958|Ginger Ale|1.0|1.0
+959|Ginger Maxon|1.0|1.0
+961|Gita|0.0|1.0
+963|Gladys|0.0|1.0
+964|Glenn|1.0|1.0
+966|Gloria|0.0|1.0
+967|Gloria Culhane|0.0|1.0
+968|Gloria Stanfield|1.0|0.0
+974|Grace|1.0|1.0
+993|Greg|1.0|0.0
+994|Greg Engels|1.0|0.0
+995|Greg Hartley|1.0|0.0
+996|Greg Tanner|1.0|0.0
+997|Gregg Robinson|1.0|0.0
+998|Gregory|1.0|0.0
+999|Gregory Searle|1.0|0.0
+1002|Greta|0.0|1.0
+1003|Greta Esterman|0.0|1.0
+1004|Gretchen|1.0|1.0
+1005|Gretchen Quinn|1.0|1.0
+1010|Gunther|1.0|0.0
+1011|Gus|1.0|1.0
+1012|Gus Yoder|1.0|1.0
+1019|Hadley|1.0|0.0
+1020|Hal|1.0|0.0
+1021|Hal Shipley|1.0|0.0
+1024|Hale|1.0|0.0
+1025|Haley|1.0|1.0
+1032|Hanford|1.0|0.0
+1033|Hanford University|1.0|0.0
+1035|Hannah|0.0|1.0
+1036|Hannah Cooper|1.0|0.0
+1039|Harlin|1.0|0.0
+1040|Harold|1.0|0.0
+1043|Harrison|1.0|0.0
+1044|Harry Waters|1.0|0.0
+1045|Hartley|1.0|0.0
+1046|Harvey Denis|1.0|0.0
+1047|Haven House|1.0|0.0
+1048|Hayes|1.0|0.0
+1049|Hayley|0.0|1.0
+1050|Hayley Koslow|0.0|1.0
+1052|Heather|0.0|1.0
+1055|Hector|1.0|0.0
+1056|Hector Santiago|1.0|0.0
+1063|Henry|1.0|0.0
+1064|Henry Hudson|1.0|0.0
+1065|Henry Williams|1.0|0.0
+1070|Hickey Evan|1.0|0.0
+1083|Honey Do|0.0|1.0
+1084|Honey Rapist|0.0|1.0
+1085|Honor|0.0|1.0
+1086|Hope|0.0|1.0
+1087|Hope Garrett|1.0|0.0
+1092|Howard|1.0|0.0
+1094|Hudson|1.0|0.0
+1095|Hudson River|1.0|0.0
+1096|Hudson University|1.0|0.0
+1107|Ian Felson|1.0|0.0
+1110|Ileana Jashari|0.0|1.0
+1112|Imelda|0.0|1.0
+1117|Inez|0.0|1.0
+1118|Ingrid|0.0|1.0
+1119|Ingrid Block|0.0|1.0
+1127|Inwood Hill Park|1.0|0.0
+1129|Irene|0.0|1.0
+1131|Isaac|1.0|0.0
+1135|Israel|1.0|0.0
+1141|Jack|1.0|0.0
+1142|Jack Hammond|1.0|0.0
+1143|Jack McCoy|1.0|0.0
+1144|Jackie|1.0|1.0
+1145|Jackie Landricks|1.0|1.0
+1146|Jackie Scott|1.0|0.0
+1147|Jackson|1.0|0.0
+1149|Jacob|1.0|0.0
+1150|Jacob Nesbit|1.0|0.0
+1155|Jake|1.0|0.0
+1156|Jake Tierney|0.0|1.0
+1159|James|1.0|0.0
+1160|James Doyle|1.0|0.0
+1161|James Randall|1.0|0.0
+1162|Jamie|1.0|1.0
+1163|Jamie Hoskins|1.0|1.0
+1164|Jamie Ross|1.0|0.0
+1165|Jana Whitlock|0.0|1.0
+1166|Jane|0.0|1.0
+1167|Jane Doe|0.0|1.0
+1168|Jane Does|0.0|1.0
+1169|Jane Tyler|1.0|0.0
+1170|Jane Williams|0.0|1.0
+1171|Janey|0.0|1.0
+1172|Janis|0.0|1.0
+1173|Janis Donovan|1.0|0.0
+1178|Jasmine|0.0|1.0
+1179|Jason|1.0|0.0
+1180|Jason Gambel|1.0|0.0
+1181|Jason King|1.0|0.0
+1182|Jason Rundberg|1.0|0.0
+1183|Jasper|1.0|0.0
+1184|Jay|1.0|0.0
+1185|Jazmin|0.0|1.0
+1186|Jeanne|0.0|1.0
+1187|Jeff Suiter|1.0|0.0
+1189|Jeffrey|1.0|0.0
+1190|Jeffrey Whitlock|1.0|0.0
+1191|Jeffrey Wigand|1.0|0.0
+1193|Jeffries Lenora|0.0|1.0
+1194|Jen|0.0|1.0
+1196|Jenna|0.0|1.0
+1198|Jennifer|0.0|1.0
+1199|Jennifer Benitez|0.0|1.0
+1200|Jennifer Brown|0.0|1.0
+1201|Jennifer Durning|0.0|1.0
+1202|Jennifer Neal|1.0|0.0
+1203|Jenny|0.0|1.0
+1204|Jenny White|0.0|1.0
+1205|Jenny White Rochester|1.0|0.0
+1207|Jeremy|1.0|0.0
+1208|Jeremy Brice|1.0|0.0
+1209|Jerome Raleigh|1.0|0.0
+1210|Jerry|1.0|1.0
+1211|Jerry Bullard|1.0|1.0
+1213|Jesse|1.0|1.0
+1214|Jesse Hansen|1.0|1.0
+1215|Jesse Kleberg|1.0|1.0
+1216|Jesse Ray|1.0|1.0
+1217|Jessica|0.0|1.0
+1218|Jessie Taylor|1.0|0.0
+1219|Jesus|1.0|0.0
+1222|Jill|0.0|1.0
+1223|Jill Hoffman|0.0|1.0
+1224|Jill Templeton|1.0|0.0
+1225|Jim|1.0|0.0
+1226|Jim Delmonico|1.0|0.0
+1227|Jimmy|1.0|0.0
+1228|Jimmy Buffet|1.0|0.0
+1229|Jimmy Walp|1.0|0.0
+1230|Joan|0.0|1.0
+1231|Joan Arliss|0.0|1.0
+1232|Joan Moore|1.0|0.0
+1233|Joan Simon|1.0|0.0
+1234|Jodi|1.0|1.0
+1235|Joe|1.0|0.0
+1236|Joe Bandolini|1.0|0.0
+1237|Joe Sherman|1.0|0.0
+1238|Joel|1.0|0.0
+1239|Joel Parven|1.0|0.0
+1240|Joey|1.0|1.0
+1241|Joey Field|1.0|1.0
+1243|John|1.0|0.0
+1244|John Blackmun|1.0|0.0
+1245|John Doe|0.0|1.0
+1246|John Fenwick|1.0|0.0
+1247|John Flynn|1.0|0.0
+1248|John Kramer|1.0|0.0
+1249|John Locke High|1.0|0.0
+1250|Johnny Schmidt|1.0|0.0
+1253|Jonah|1.0|0.0
+1254|Jonah Leland|1.0|1.0
+1255|Jonathan|1.0|0.0
+1256|Jonathan Smith|1.0|0.0
+1258|Jordan|1.0|1.0
+1259|Jordan Hayes|1.0|0.0
+1260|Jordan Owens|1.0|1.0
+1261|Jordan River|1.0|1.0
+1262|Jordana Weitz|0.0|1.0
+1263|Jose|1.0|0.0
+1264|Joshua|1.0|0.0
+1265|Joshua Friedman|1.0|0.0
+1266|Josie|0.0|1.0
+1267|Josie Post|0.0|1.0
+1268|Joy|0.0|1.0
+1269|Joyce|0.0|1.0
+1270|Juan|1.0|0.0
+1271|Juan Alvarez|1.0|0.0
+1272|Juan Pablo|1.0|0.0
+1275|Judd|1.0|0.0
+1277|Judson Martin Tierney|0.0|1.0
+1278|Judson Tierney|0.0|1.0
+1279|Judy Trahill|1.0|1.0
+1280|Julian|1.0|0.0
+1281|Julian Cooper|1.0|0.0
+1282|Julie Ryan|1.0|0.0
+1285|Justin|1.0|1.0
+1290|Karen|0.0|1.0
+1291|Karen Fitzgerald|1.0|0.0
+1292|Karen Hall|1.0|0.0
+1293|Karen Leighton|1.0|0.0
+1294|Karen Raye|0.0|1.0
+1295|Karen Wyman|0.0|1.0
+1296|Karl|1.0|0.0
+1297|Karl Serrit|1.0|0.0
+1298|Katharine|0.0|1.0
+1299|Kathleen|0.0|1.0
+1300|Kathy|0.0|1.0
+1301|Katie|0.0|1.0
+1302|Katie Harris|1.0|0.0
+1303|Katie Nicholson|0.0|1.0
+1305|Katrina|0.0|1.0
+1306|Katya|0.0|1.0
+1307|Katya Alexander|1.0|0.0
+1310|Keith|1.0|0.0
+1311|Keith Gerard|1.0|0.0
+1312|Keith Willis|1.0|0.0
+1313|Kelley|1.0|1.0
+1314|Kelly Wolcott|1.0|1.0
+1316|Ken|1.0|0.0
+1317|Ken Randall|1.0|0.0
+1318|Ken Turner|1.0|0.0
+1319|Kendal|1.0|0.0
+1320|Kendall|1.0|0.0
+1321|Kennedy Airport|1.0|0.0
+1322|Kennedy International|1.0|0.0
+1323|Kenneth Maggio|1.0|0.0
+1324|Kenneth Pratt|1.0|0.0
+1325|Kenny Teachen|1.0|0.0
+1329|Kevin|1.0|0.0
+1330|Kevin Franklin|1.0|0.0
+1333|Kim|1.0|1.0
+1334|Kim Hoffman|1.0|1.0
+1335|Kimberly Phillips|0.0|1.0
+1338|Kitty|0.0|1.0
+1350|Kyle|1.0|1.0
+1351|Kyle Ackerman|1.0|1.0
+1362|Lana Hoffman|0.0|1.0
+1367|Lara|0.0|1.0
+1368|Lara Todd|1.0|0.0
+1370|Larissa|0.0|1.0
+1371|Larissa Welsh|1.0|0.0
+1372|Larry|1.0|0.0
+1373|Larry Holt|1.0|0.0
+1374|Larry Johnson|1.0|0.0
+1375|Larry Plus|1.0|0.0
+1385|Lauren|1.0|1.0
+1386|Lauren Mobley|1.0|1.0
+1387|Lauren Westley|1.0|0.0
+1388|Laurie|1.0|1.0
+1389|Lawrence|1.0|0.0
+1390|Lawrence Fuller|1.0|0.0
+1391|Lawrence Grabowski|1.0|0.0
+1392|Layla|0.0|1.0
+1393|Layla Briggs|1.0|0.0
+1396|Leah|0.0|1.0
+1400|Lena|0.0|1.0
+1401|Lennie|1.0|0.0
+1402|Lennie Briscoe|1.0|0.0
+1404|Lenora|0.0|1.0
+1405|Lenora Bernstein|0.0|1.0
+1406|Lenore|0.0|1.0
+1411|Lewis|1.0|0.0
+1416|Liam|1.0|0.0
+1417|Liam Black|1.0|0.0
+1418|Liam Connors|1.0|0.0
+1420|Lieutenant Shea|1.0|1.0
+1425|Lila White|0.0|1.0
+1426|Lilly|0.0|1.0
+1427|Lily|0.0|1.0
+1428|Lincoln Town|1.0|0.0
+1429|Lincoln Tunnel|1.0|0.0
+1430|Linda|0.0|1.0
+1432|Lindsay|1.0|1.0
+1433|Lindsey|1.0|1.0
+1434|Linus|1.0|0.0
+1435|Lisa|0.0|1.0
+1436|Lisa Perez|0.0|1.0
+1441|Liz Donnelly|0.0|1.0
+1442|Lizette|0.0|1.0
+1443|Lizzie|0.0|1.0
+1444|Lizzie Harmon|1.0|0.0
+1445|Lloyd Andrews|1.0|0.0
+1446|Lloyd David Andrews|1.0|0.0
+1450|Lockwood|1.0|0.0
+1451|Logan|1.0|0.0
+1452|Lois Creen|0.0|1.0
+1455|Lonnie|1.0|1.0
+1457|Lookout Hill|1.0|0.0
+1458|Lorinda|0.0|1.0
+1459|Lorna Scarry|0.0|1.0
+1460|Lorraine|0.0|1.0
+1461|Lorraine Delmas|0.0|1.0
+1462|Lorraine Hansen|0.0|1.0
+1464|Louise|0.0|1.0
+1465|Louise Billings|0.0|1.0
+1467|Love|0.0|1.0
+1469|Lucas|1.0|0.0
+1471|Lucy|0.0|1.0
+1472|Lucy Prichard|0.0|1.0
+1474|Luke|1.0|0.0
+1475|Luke Dixon|1.0|0.0
+1476|Luke Thomas Breslin|1.0|0.0
+1482|Lynn|1.0|1.0
+1483|Lynn Rivers|1.0|1.0
+1495|Madeline|0.0|1.0
+1496|Maggie|0.0|1.0
+1498|Malcolm|1.0|0.0
+1499|Malcolm Field|1.0|0.0
+1509|Manny|1.0|0.0
+1510|Manny Lopez|1.0|0.0
+1511|Manuel Rojas|1.0|0.0
+1512|Marc|1.0|0.0
+1514|Marcus Cole|1.0|0.0
+1515|Marcus Tate|1.0|1.0
+1516|Marcus Woll|1.0|0.0
+1517|Marcy Cochran|0.0|1.0
+1518|Margaret Peterson|0.0|1.0
+1519|Marge|0.0|1.0
+1520|Marie|0.0|1.0
+1521|Marilyn|0.0|1.0
+1522|Marilyn Dunlap|0.0|1.0
+1524|Mario Molinari|1.0|0.0
+1525|Marion Springer|1.0|1.0
+1526|Mark|1.0|0.0
+1527|Mark Foster|1.0|0.0
+1528|Mark Krieger|1.0|0.0
+1529|Mark Whitlock|1.0|0.0
+1530|Marnie|0.0|1.0
+1531|Marnie Foster|1.0|0.0
+1534|Marta|0.0|1.0
+1535|Marta Stevens|0.0|1.0
+1536|Martin|1.0|0.0
+1537|Martin Global|1.0|0.0
+1538|Martin Gold|1.0|0.0
+1539|Martin Trenway|1.0|0.0
+1540|Martin Wexler|1.0|0.0
+1542|Marty|1.0|1.0
+1543|Marty Potter|1.0|1.0
+1544|Marvin Posey|1.0|0.0
+1552|Matt|1.0|0.0
+1553|Matthew Brodus|1.0|0.0
+1554|Maura|0.0|1.0
+1555|Maureen|0.0|1.0
+1556|Max|1.0|1.0
+1557|Maxine|0.0|1.0
+1572|Megan|0.0|1.0
+1573|Melanie|0.0|1.0
+1574|Melanie Tamkin|0.0|1.0
+1576|Melinda|0.0|1.0
+1577|Melinda Warner|1.0|0.0
+1581|Mercy|0.0|1.0
+1589|Micah|1.0|0.0
+1590|Michael|1.0|0.0
+1591|Michael Croft|1.0|0.0
+1592|Michael Garcia|1.0|0.0
+1593|Michael Gardner|1.0|0.0
+1594|Michael Gendel|1.0|0.0
+1595|Michael Goren|1.0|0.0
+1596|Michael Washington|1.0|0.0
+1597|Michele|1.0|1.0
+1598|Michele Osborne|1.0|0.0
+1599|Mickey|1.0|0.0
+1600|Mickey Mouse|1.0|0.0
+1607|Miguel|1.0|0.0
+1608|Miguel Alvarez|1.0|0.0
+1609|Miguel Sandoval|1.0|0.0
+1610|Mika|1.0|0.0
+1611|Mike|1.0|0.0
+1612|Mike Mollinax|1.0|0.0
+1613|Mikey|1.0|0.0
+1614|Miles Sennet|1.0|0.0
+1620|Mira|0.0|1.0
+1621|Mira Elbisi|0.0|1.0
+1622|Miranda|0.0|1.0
+1623|Miranda Cole|1.0|0.0
+1626|Miriam|0.0|1.0
+1627|Miriam Penner|0.0|1.0
+1630|Miss Kitty|0.0|1.0
+1634|Missy|0.0|1.0
+1635|Missy Kurtz|0.0|1.0
+1636|Mitch|1.0|0.0
+1637|Mitchell|1.0|0.0
+1638|Mitchell Hissam|1.0|0.0
+1639|Mitchell Koblin|1.0|0.0
+1640|Moe|1.0|0.0
+1641|Moira|0.0|1.0
+1642|Moira Scott|1.0|0.0
+1643|Moira Shannon|1.0|1.0
+1646|Molly|0.0|1.0
+1647|Molly Donovan|1.0|0.0
+1648|Molly Preston|1.0|0.0
+1650|Mommy|0.0|1.0
+1652|Monique|0.0|1.0
+1653|Monroe|1.0|0.0
+1662|Morley|1.0|0.0
+1663|Morris|1.0|0.0
+1664|Morris Commission|1.0|0.0
+1670|Moss|1.0|0.0
+1676|Mr. Barnett|1.0|0.0
+1679|Mr. Carlisle|0.0|1.0
+1691|Mr. Kim|1.0|1.0
+1695|Mr. Levin|1.0|0.0
+1697|Mr. Martin|1.0|0.0
+1703|Mr. Quintana|0.0|1.0
+1704|Mr. Rawley|1.0|0.0
+1705|Mr. Roger Hanley|1.0|0.0
+1706|Mr. Ryan|1.0|0.0
+1709|Mr. Todd|1.0|0.0
+1721|Murray|1.0|0.0
+1739|Nancy|0.0|1.0
+1740|Nancy Pierce|1.0|0.0
+1741|Naomi|0.0|1.0
+1742|Naomi Cheales|0.0|1.0
+1747|Natasha|0.0|1.0
+1748|Nate|1.0|0.0
+1749|Nate Kendal|1.0|0.0
+1750|Nathan|1.0|0.0
+1751|Nathan Harding|1.0|0.0
+1752|Nathan Phelpd|1.0|0.0
+1753|Nathan Phelps|1.0|0.0
+1760|Neal|1.0|0.0
+1761|Neal Douglas|1.0|0.0
+1762|Nelson|1.0|0.0
+1763|Nelson Quintana|0.0|1.0
+1766|Nestor|1.0|0.0
+1767|Nestor Buchanan|1.0|0.0
+1770|New ADA Mika Vaughn|1.0|0.0
+1789|Nick|1.0|0.0
+1790|Nick Amaro|1.0|0.0
+1791|Nick Pratt|1.0|0.0
+1792|Nicole|0.0|1.0
+1795|Nikki|1.0|1.0
+1796|Nikki Sherman|1.0|0.0
+1797|Nikki West|1.0|0.0
+1798|Nina|0.0|1.0
+1799|Nina Wilshire|0.0|1.0
+1800|Noble|1.0|0.0
+1802|Norman|1.0|0.0
+1803|Norman Webber|1.0|0.0
+1805|North Carolina|0.0|1.0
+1807|Norton|1.0|0.0
+1810|Nova|0.0|1.0
+1817|Officer Cheryl Baxter|1.0|0.0
+1818|Officer Tim|1.0|1.0
+1820|Oliver Benson|1.0|0.0
+1823|Olivia|0.0|1.0
+1824|Olivia Benson|1.0|0.0
+1830|Orville Underwood|1.0|0.0
+1831|Oscar Salazar|1.0|0.0
+1833|Owen|1.0|0.0
+1844|Pablo|1.0|0.0
+1846|Page|1.0|1.0
+1847|Pam Adler|0.0|1.0
+1848|Pamela|0.0|1.0
+1849|Pamela Sawyer|1.0|0.0
+1854|Park Slope|1.0|0.0
+1855|Parker|1.0|0.0
+1862|Patricia|0.0|1.0
+1863|Patrick|1.0|0.0
+1864|Patrick Holbart|1.0|0.0
+1865|Patrick Rumsey|1.0|0.0
+1868|Patrol Officer Randa Lewis|1.0|0.0
+1870|Patty|1.0|1.0
+1871|Patty Branson|1.0|1.0
+1872|Paul|1.0|0.0
+1873|Paul Robinette|0.0|1.0
+1874|Paula Grey|0.0|1.0
+1875|Pauline Brecker|0.0|1.0
+1879|Penn|1.0|0.0
+1880|Penny|1.0|1.0
+1881|Penny Ante Poker|1.0|1.0
+1883|Percy|1.0|0.0
+1886|Persephone James|1.0|0.0
+1889|Pete|1.0|0.0
+1890|Pete Breslin|1.0|0.0
+1891|Peter|1.0|0.0
+1892|Peter Carson|1.0|0.0
+1893|Peter Cordell|1.0|0.0
+1894|Peter Nestler|1.0|0.0
+1895|Peter Smith|1.0|0.0
+1897|Petra|0.0|1.0
+1900|Peyton|1.0|0.0
+1901|Peyton Kleberg|1.0|0.0
+1905|Phillip Anderson|1.0|0.0
+1907|Philly|0.0|1.0
+1920|Pooh|1.0|1.0
+1924|Port Chester|1.0|0.0
+1925|Porter|1.0|0.0
+1930|Powell|1.0|0.0
+1933|Prescott|1.0|0.0
+1934|Price|1.0|0.0
+1935|Prince|1.0|0.0
+1936|Prince Miller|1.0|0.0
+1954|Rachael|0.0|1.0
+1955|Rachel|0.0|1.0
+1956|Rachel Grey|0.0|1.0
+1961|Raleigh|1.0|0.0
+1963|Ralph Noble|1.0|0.0
+1964|Ramon|1.0|0.0
+1965|Ramona|0.0|1.0
+1966|Ramona Rodriguez|0.0|1.0
+1967|Ramsey|1.0|0.0
+1968|Ramsey Vickers|1.0|0.0
+1969|Randall|1.0|0.0
+1970|Randolph|1.0|0.0
+1973|Raphael|1.0|0.0
+1977|Raven|0.0|1.0
+1978|Rawley|1.0|0.0
+1979|Ray|1.0|1.0
+1980|Ray Campbell|1.0|1.0
+1981|Ray Gunther|1.0|0.0
+1982|Ray Masters|1.0|1.0
+1983|Ray Ray|1.0|1.0
+1984|Raymond|1.0|0.0
+1985|Raymond Nesbit|1.0|0.0
+1987|Rebecca|0.0|1.0
+1988|Rebecca Balthus|0.0|1.0
+1989|Rebecca Hendrix|0.0|1.0
+1990|Rebecca Kurtz|0.0|1.0
+1991|Rebekah|0.0|1.0
+1992|Red Cross|1.0|0.0
+1994|Reg|1.0|0.0
+1995|Regan|1.0|1.0
+1996|Rego Park|1.0|0.0
+1997|Rena|0.0|1.0
+1998|Rena West|1.0|0.0
+1999|Renee|0.0|1.0
+2000|Renee Simmons|0.0|1.0
+2003|Reuben|1.0|0.0
+2004|Reverend Clayton|1.0|0.0
+2005|Reverend Ferguson|1.0|0.0
+2007|Rey|1.0|1.0
+2011|Richard|1.0|0.0
+2012|Richard Elam|1.0|0.0
+2013|Richard Jewell|0.0|1.0
+2014|Richard Morgan|1.0|1.0
+2015|Richard White|1.0|0.0
+2016|Richie|1.0|0.0
+2017|Richie Morales|1.0|0.0
+2018|Rick|1.0|0.0
+2019|Ricky|1.0|1.0
+2020|Ricky Blaine|1.0|0.0
+2027|Riley|1.0|0.0
+2028|Riley Couger|1.0|0.0
+2030|Rita|0.0|1.0
+2031|Rita Colino|0.0|1.0
+2032|River Jordan|1.0|1.0
+2041|Robert Kelley|1.0|1.0
+2042|Robert Prescott|1.0|0.0
+2043|Robert Sidarsky|1.0|0.0
+2044|Roberto|1.0|0.0
+2045|Roberto Martinez|1.0|0.0
+2046|Robin Hood|1.0|1.0
+2047|Robinson|1.0|0.0
+2048|Rock Wall|1.0|0.0
+2049|Roddy Franklin|1.0|0.0
+2052|Roger|1.0|0.0
+2053|Roger Jenkins|1.0|0.0
+2054|Roger Pomerantz|1.0|0.0
+2055|Roger Silver|1.0|0.0
+2058|Rollins|1.0|0.0
+2059|Roman Catholic|1.0|0.0
+2063|Ron|1.0|0.0
+2064|Ron Koslowski|1.0|0.0
+2065|Ron Wolcott|1.0|0.0
+2066|Ronnie|1.0|1.0
+2067|Ronny|1.0|1.0
+2070|Roosevelt Hospital|1.0|0.0
+2071|Rose|0.0|1.0
+2072|Ross|1.0|0.0
+2073|Ross Campo|1.0|0.0
+2074|Ross McKenzie|1.0|0.0
+2076|Roy|1.0|0.0
+2077|Roy Barnett|1.0|0.0
+2078|Royce|1.0|0.0
+2083|Russ|1.0|0.0
+2084|Russell|1.0|0.0
+2085|Russell Williams|1.0|0.0
+2088|Ryan|1.0|0.0
+2089|Ryan Bedford|1.0|0.0
+2090|Ryan Davies|1.0|0.0
+2091|Ryan Witherspoon|1.0|0.0
+2104|Sabrina|0.0|1.0
+2105|Sabrina Farmer|0.0|1.0
+2108|Saint Agnes|0.0|1.0
+2109|Saint Ambrose|1.0|0.0
+2110|Saint Andrew|1.0|0.0
+2111|Saint Francis|1.0|1.0
+2112|Saint Peter|1.0|0.0
+2114|Sal Avelino|1.0|1.0
+2119|Sally|0.0|1.0
+2120|Sam|1.0|1.0
+2121|Sam Baylor|1.0|1.0
+2122|Samantha|0.0|1.0
+2123|Sammy Shiner|1.0|1.0
+2124|Samuel|1.0|0.0
+2125|San Diego|1.0|0.0
+2126|San Marco Hall|1.0|0.0
+2127|Sanders|1.0|0.0
+2128|Sandra|0.0|1.0
+2129|Sandra Garner|0.0|1.0
+2130|Sandy|1.0|1.0
+2133|Santa Clara Pueblo|0.0|1.0
+2135|Sara Beth|0.0|1.0
+2136|Sara Jenner|0.0|1.0
+2137|Sarah|0.0|1.0
+2138|Sarah Branson|0.0|1.0
+2139|Sarah Brown|0.0|1.0
+2140|Sarah Kimmel|0.0|1.0
+2141|Sarah Logan|1.0|0.0
+2142|Sarah Rendell|0.0|1.0
+2146|Saul Picard|1.0|0.0
+2153|Scott|1.0|0.0
+2154|Scott Dayton|1.0|0.0
+2155|Scott Heston|1.0|0.0
+2156|Scott Lucas|1.0|0.0
+2157|Sean|1.0|1.0
+2158|Sean Hamill|1.0|1.0
+2159|Sean Webster|1.0|0.0
+2165|Serena|0.0|1.0
+2166|Serena Benson|1.0|0.0
+2167|Sergeant|1.0|0.0
+2168|Sergeant Munch|1.0|0.0
+2169|Sergeant Pierre|1.0|0.0
+2170|Seth|1.0|0.0
+2171|Seth Coleman|1.0|0.0
+2172|Seth Langdon|1.0|0.0
+2173|Seth Millstead|1.0|0.0
+2174|Seth Webster|1.0|0.0
+2184|Shane|1.0|1.0
+2185|Shannon|1.0|1.0
+2186|Sharon|0.0|1.0
+2187|Shawn|1.0|1.0
+2188|Shawn Becker|1.0|1.0
+2189|Shea|1.0|1.0
+2190|Shea Stadium|1.0|1.0
+2191|Sheila|0.0|1.0
+2192|Sheila Tierney|0.0|1.0
+2193|Shelley|1.0|1.0
+2194|Shelley Brown|1.0|1.0
+2196|Sherman|1.0|0.0
+2204|Sidney|1.0|0.0
+2205|Sidney Truex|1.0|0.0
+2211|Simeon|1.0|0.0
+2212|Simon|1.0|0.0
+2213|Simon Bar Jonah|1.0|0.0
+2214|Simon Marsden|1.0|0.0
+2215|Simon Peter|1.0|0.0
+2216|Simone Bryce|1.0|0.0
+2219|Sister Peg|0.0|1.0
+2221|Sloane|1.0|0.0
+2224|Smith|1.0|0.0
+2230|Solomon|1.0|0.0
+2234|Sonja|0.0|1.0
+2235|Sonya|0.0|1.0
+2236|Sonya Paxton|0.0|1.0
+2237|Sonya Pietrovicz|0.0|1.0
+2242|Special Agent Wayne Nelson|1.0|0.0
+2246|Spence|1.0|0.0
+2247|Spencer|1.0|0.0
+2252|St. Bart|1.0|0.0
+2253|St. Monica|0.0|1.0
+2254|St. Paul|1.0|0.0
+2257|Stabler Charlotte|0.0|1.0
+2258|Stabler Constanta|0.0|1.0
+2260|Stabler Emily|0.0|1.0
+2263|Stabler Kathy|0.0|1.0
+2265|Stabler Michael|1.0|0.0
+2268|Stabler Roger Silver|1.0|0.0
+2269|Stabler Tierney|0.0|1.0
+2271|Stabler Warner|1.0|0.0
+2273|Stan Gillum|1.0|0.0
+2274|Stanford|1.0|0.0
+2275|Stanley Brecker|1.0|0.0
+2276|Star|0.0|1.0
+2277|Star Morrison|0.0|1.0
+2279|Starla|0.0|1.0
+2280|Starr|0.0|1.0
+2284|Stefan Tanzic|1.0|0.0
+2285|Stella Danquiss|0.0|1.0
+2286|Stephanie|0.0|1.0
+2287|Stephanie Rawley|1.0|0.0
+2288|Stephen Foster High School|1.0|0.0
+2289|Steve|1.0|0.0
+2290|Steve Osborne|1.0|0.0
+2291|Steven|1.0|0.0
+2292|Steven Cleary|1.0|0.0
+2293|Steven Hale|1.0|0.0
+2294|Stevie|1.0|0.0
+2295|Stewart|1.0|0.0
+2296|Stewart Lynch|1.0|0.0
+2301|Sue Burgess|1.0|0.0
+2304|Sunny|1.0|1.0
+2307|Susan|0.0|1.0
+2308|Susan Sidarsky|0.0|1.0
+2309|Suzanne|0.0|1.0
+2310|Suzanne Mollinax|0.0|1.0
+2313|Sydney|1.0|1.0
+2314|Sydney Green|1.0|1.0
+2315|Sylvia|0.0|1.0
+2316|Sylvia Hadley|1.0|0.0
+2317|Sylvia Stone Hadley Memorial Fund|1.0|0.0
+2322|Tammy|1.0|1.0
+2324|Tanner|1.0|0.0
+2331|Tate|1.0|1.0
+2333|Tatum|0.0|1.0
+2335|Taylor|1.0|0.0
+2338|Ted Carthage|1.0|1.0
+2339|Ted Wilmington|1.0|1.0
+2345|Terri|1.0|1.0
+2348|Terry|1.0|1.0
+2349|Terry Willard|1.0|0.0
+2350|Tessa|0.0|1.0
+2351|Tessa McKellen|0.0|1.0
+2352|Thomas|1.0|0.0
+2353|Thomas Dayton|1.0|0.0
+2354|Thomas Gordon|1.0|0.0
+2358|Tierney|0.0|1.0
+2359|Tiffany Lemarsh|0.0|1.0
+2361|Tim|1.0|1.0
+2363|Tina|0.0|1.0
+2364|Tina Parven|0.0|1.0
+2368|Tobin|1.0|0.0
+2369|Tobin Willis|1.0|0.0
+2370|Todd|1.0|0.0
+2371|Todd Ramsay|1.0|0.0
+2375|Tom|1.0|0.0
+2376|Tom Landricks|1.0|0.0
+2377|Tom Paysen|1.0|0.0
+2378|Tomas|1.0|0.0
+2379|Tommy|1.0|1.0
+2380|Tommy Elliot|1.0|0.0
+2381|Tommy McConaghWhile Jeffries|1.0|1.0
+2382|Tony|1.0|1.0
+2383|Tony Damon|1.0|0.0
+2384|Tony Shaeffer|1.0|1.0
+2385|Tonya|0.0|1.0
+2386|Tonya Majeski|0.0|1.0
+2387|Tracy|1.0|1.0
+2388|Tracy Henderson|1.0|0.0
+2391|Travis|1.0|0.0
+2392|Travis Hall|1.0|0.0
+2393|Trent Peterson|1.0|0.0
+2394|Trenton|1.0|0.0
+2396|Trevor Langan|1.0|0.0
+2397|Trey|1.0|0.0
+2402|Tucker|1.0|0.0
+2405|Turner|1.0|0.0
+2406|Turner Syndrome|1.0|0.0
+2421|Uncle Bill|1.0|1.0
+2429|Upper West Side|1.0|0.0
+2432|Ursula|0.0|1.0
+2433|Ursula Wei|0.0|1.0
+2438|Valerie|0.0|1.0
+2439|Valerie Sennet|0.0|1.0
+2442|Van Allen|1.0|0.0
+2443|Van Buren|1.0|1.0
+2444|Vance|1.0|0.0
+2445|Vance Shepard|1.0|0.0
+2447|Vanessa|0.0|1.0
+2458|Veronica|0.0|1.0
+2459|Veronica Nash|0.0|1.0
+2465|Vicki|0.0|1.0
+2466|Vicki Riggs|0.0|1.0
+2469|Victor|1.0|0.0
+2470|Victor Klaussen|1.0|0.0
+2471|Victor Tate|1.0|1.0
+2472|Victoria|0.0|1.0
+2473|Victoria Kraft|0.0|1.0
+2474|Vincent|1.0|0.0
+2475|Virginia|0.0|1.0
+2477|Vivian|0.0|1.0
+2478|Vivien|0.0|1.0
+2479|Vivien Parish|0.0|1.0
+2480|Vivien Parris|0.0|1.0
+2481|Vivien Parrish|0.0|1.0
+2484|Wade|1.0|0.0
+2485|Walden Falls|1.0|0.0
+2486|Walker|1.0|0.0
+2489|Wallis Inn|1.0|1.0
+2492|Walt|1.0|0.0
+2493|Walt Massey|1.0|0.0
+2494|Walter Inman|1.0|0.0
+2495|Warner|1.0|0.0
+2497|Warren Commission|1.0|0.0
+2498|Washington|1.0|0.0
+2499|Washington D.C.|1.0|0.0
+2500|Washington Square Park|1.0|0.0
+2504|Waverly|1.0|0.0
+2506|Wayne|1.0|0.0
+2507|Wayne Mortens|1.0|0.0
+2511|Wesley|1.0|0.0
+2512|Wesley Dilbert|1.0|0.0
+2513|West|1.0|0.0
+2523|Wild West|1.0|0.0
+2524|William|1.0|0.0
+2527|Willis|1.0|0.0
+2531|Winston|1.0|0.0
+2532|Winton|1.0|0.0
+2535|Wit Billions|1.0|0.0
+2548|Yale|1.0|0.0
+2551|Zach|1.0|0.0
+2552|Zach Marshall|1.0|0.0
+2553|Zachary|1.0|0.0
+2560|Zoe|0.0|1.0

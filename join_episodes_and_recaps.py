@@ -56,7 +56,7 @@ from string import punctuation
 import ujson as json
 import os
 
-pd.options.display.line_width = 500
+pd.options.display.width = 500
 pd.options.display.max_columns = 15
 pd.options.display.max_colwidth = 25
 

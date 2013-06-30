@@ -44,7 +44,7 @@ import re
 from string import punctuation
 from collections import defaultdict
 
-pd.options.display.line_width = 200
+pd.options.display.width = 200
 pd.options.display.max_columns = 15
 pd.options.display.max_colwidth = 25
 
