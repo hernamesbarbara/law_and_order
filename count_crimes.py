@@ -6,7 +6,9 @@ from string import punctuation
 STOP_WORDS = [word for word in
                 open('./ref/stopwords.txt').read().split('\n')]
 
-df = pd.read_csv('./svu_data/law_and_order_svu_with_recaps.txt', sep='|')
+
+file_name = './data/franchise/episodes_and_recaps.txt'
+df = pd.read_csv(file_name, sep='|')
 df = df[df.corpus.notnull()]
 
 def rm_punct(txt):
@@ -18,14 +20,18 @@ def list_of_crimes():
 
     crimes = list(set([rm_punct(word) for row in crimes
                     for word in row.split() if word not in STOP_WORDS]))
-    return crimes
-
-
-
-vec = CountVectorizer()
-vec.fit(df.corpus)
+    return sorted(crimes)
 
 crimes = list_of_crimes()
-mentioned = sorted([word for word in vec.vocabulary_
-                            if word in crimes ])
+
+vec = CountVectorizer(
+    stop_words='english',
+    vocabulary=crimes
+)
+
+vec.fit(df.corpus)
+
+print np.all([word in vec.vocabulary_ for word in crimes])
+
+
 
