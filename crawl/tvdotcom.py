@@ -65,7 +65,9 @@ def make_url(show, season):
     base = 'http://www.tv.com/shows'
     franchise = {
         'original': '/law-order/season-{num}/',
-        'svu': '/law-order-special-victims-unit/season-{num}/'
+        'svu': '/law-order-special-victims-unit/season-{num}/',
+        'trial_by_jury': '/law-and-order-trial-by-jury/season-{num}/',
+        'criminal_intent': '/law-order-criminal-intent/season-{num}/'
     }
 
     return base+franchise.get(show).format(num=season)
@@ -131,7 +133,14 @@ def utf8ify(txt):
 
 franchise = [
     {'name': 'svu', 'n_seasons': 14},
-    {'name': 'original', 'n_seasons': 20}
+    {'name': 'original', 'n_seasons': 20},
+    {'name': 'trial_by_jury', 'n_seasons': 1},
+    {'name': 'criminal_intent', 'n_seasons': 10}
+]
+
+franchise = [
+    {'name': 'trial_by_jury', 'n_seasons': 1},
+    {'name': 'criminal_intent', 'n_seasons': 10}
 ]
 
 for show in franchise:

@@ -54,7 +54,6 @@ FLOAT_PAT    = re.compile( '(\d{1,2}\.\d{1,2})', re.DOTALL|re.IGNORECASE)
 def get_tables(soup):
     css = {'class': 'wikitable plainrowheaders'}
     tables = [table for table in soup.find_all('table', css)]
-    print tables[0].get_text()
     return tables
 
 def find_rows(table):
@@ -123,11 +122,21 @@ base = 'http://en.wikipedia.org/wiki'
 franchise = {
     'original': base+'/List_of_Law_%26_Order_episodes'
     , 'svu': base+'/List_of_Law_%26_Order:_Special_Victims_Unit_episodes'
+    , 'criminal_intent': 'http://en.wikipedia.org/wiki/List_of_Law_%26_Order:_Criminal_Intent_episodes'
+    , 'trial_by_jury': 'http://en.wikipedia.org/wiki/List_of_Law_%26_Order:_Trial_by_Jury_episodes'
 }
+
+
+franchise = {
+    'trial_by_jury': 'http://en.wikipedia.org/wiki/List_of_Law_%26_Order:_Trial_by_Jury_episodes'
+}
+
 
 for show in franchise:
 
     url = franchise.get(show)
+    print "Working on %s" % show
+    print "GET %s" % url
 
     html = requests.get(url).text.encode('utf-8')
     soup = BeautifulSoup(html, 'lxml')
@@ -139,8 +148,10 @@ for show in franchise:
 
     tables = [ t for t in tables if 'Law & Order Movie' not in t.get_text() ]
 
+    n_tables = len(tables)
     for i, table in enumerate(tables):
         nth_season = i + 1
+        print 'Processing season %d of %d' % ( nth_season, n_tables )
         rows = find_data(table)
         h = find_headers(table)
 
@@ -153,6 +164,7 @@ for show in franchise:
             data[h[j]] = [row[j] for row in rows]
 
         df = pd.DataFrame(data)
+        print 'Season has %d episodes' % len(df)
         df['nth_season'] = nth_season
         f = './data/{show}/episodes/season_{num}.csv'
         f = f.format(show=show, num=nth_season)
