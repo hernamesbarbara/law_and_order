@@ -180,12 +180,13 @@ def parse_date(txt, rg=re.compile('.*?(\\(.*\\))')):
         print e
         return txt
 
-
-
 BRACKETS = re.compile('([+-]?\\d*\\.\\d+)(?![-+0-9\\.])',
         re.IGNORECASE|re.DOTALL)
+
+show_names = ['criminal_intent','trial_by_jury', 'svu', 'original']
+
 combined=None
-for i, show in enumerate(['criminal_intent','trial_by_jury', 'svu', 'original']):
+for i, show in enumerate(show_names):
     print 'Processing %s' % show
 
     episodes = read_episodes(show)
@@ -241,9 +242,8 @@ for i, show in enumerate(['criminal_intent','trial_by_jury', 'svu', 'original'])
         if show == 'criminal_intent':
             recaps = recaps.drop_duplicates(cols=['episode_title'])
             recaps = recaps.reset_index(drop=True)
-            recaps.nth_episode = \
-                recaps.groupby('nth_season').nth_episode.cumsum()
-
+            # recaps.nth_episode = \
+            #     recaps.groupby('nth_season').nth_episode.cumsum()
 
         if i == 0:
             combined = pd.merge(episodes,
@@ -261,34 +261,30 @@ for i, show in enumerate(['criminal_intent','trial_by_jury', 'svu', 'original'])
             else:
                 print 'NOT EQL'
 
-# show = 'criminal_intent'
-# episodes = read_episodes(show)
-# recaps = read_recaps(show)
-
-
-
 duped_columns = ['nth_episode', 'episode_title', 'show']
 combined = combined.drop(duped_columns, axis=1)
 combined = combined.rename(columns={'show_name': 'show'})
-colorder = [
-    'directed_by',
-    'no_in_season',
-    'no_in_series',
-    'original_air_date',
-    'production_code',
-    'title',
-    'us_viewers_millions',
-    'written_by',
-    'nth_season',
-    'show',
-    'corpus_url',
-    'source',
-    'corpus'
-]
+colorder = ['directed_by','no_in_season','no_in_series','original_air_date',
+            'production_code','title','us_viewers_millions','written_by',
+            'nth_season','show','corpus_url','source','corpus']
 
-combined = combined.ix[:, colorder]
-combined.to_csv('./data/franchise/episodes_and_recaps.txt',
-    sep='|',
-    index=False,
-    encoding='utf-8')
+print
+print "n_shows:    %d" % (len(combined.show.unique()))
+print "n_episodes: %d" % len(combined)
+print
+
+grouped    = combined.groupby(['show'])
+n_corpuses = grouped.corpus.apply(lambda x: x.notnull().sum())
+print "non-null corpuses\n"
+print n_corpuses
+print ("Total"+ "%d".rjust(16) % np.sum(n_corpuses))
+print
+
+save_to_file = False
+if save_to_file:
+    combined = combined.ix[:, colorder]
+    combined.to_csv('./data/franchise/episodes_and_recaps.txt',
+        sep='|',
+        index=False,
+        encoding='utf-8')
 
