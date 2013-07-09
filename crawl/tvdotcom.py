@@ -3,9 +3,6 @@
 """
 tvdotcom.py
 
-Created by Austin Ogilvie on 2013-06-29.
-Copyright (c) 2013. All rights reserved.
-
 This script downloads Law and Order TV data from tv.com.
 
 It visits the list of episodes page on TV.com. From there, it
